@@ -4,11 +4,15 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
+    -o-box-sizing:border-box;
 	box-sizing: border-box;
+
 }
+
 * {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 }
+
 img {
 	width: 100%;
 
@@ -27,7 +31,7 @@ h2 {
    }
 
 /* Featured */
-.featured h2 {
+.row-3-header h2 {
 	padding-left: 10px;
 	color: #bcbbbb;
 
@@ -54,18 +58,17 @@ h2 {
 .footer-line {
   margin-top: 5px;
   margin-bottom: 10px;
-  border: 0;
   border-top: 2px solid #aaa
 }
 
 /* Social Icons from PerfectIcon.com */
 @font-face {
-    font-family: 'si';
-    src: url('../icons/socicon.eot');
-    src: url('../icons/socicon.eot?#iefix') format('embedded-opentype'),
-         url('../icons/socicon.woff') format('woff'),
-         url('../icons/socicon.ttf') format('truetype'),
-         url('../icons/socicon.svg#icomoonregular') format('svg');
+    font-family: "si";
+    src: url("../icons/socicon.eot");
+    src: url("../icons/socicon.eot?#iefix") format("embedded-opentype"),
+         url("../icons/socicon.woff") format("woff"),
+         url("../icons/socicon.ttf") format("truetype"),
+         url("../icons/socicon.svg#icomoonregular") format("svg");
     font-weight: normal;
     font-style: normal;
 
@@ -73,8 +76,8 @@ h2 {
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
-        font-family:si;
-        src: url(../icons/socicon.svg) format(svg);
+        font-family:"si";
+        src: url("../icons/socicon.svg") format("svg");
     }
 }
 
@@ -85,8 +88,7 @@ h2 {
 }
 
 .soc li {
-    display:inline-block;
-    *display:inline;
+    display: inline-block;
     zoom:1;
 }
 
@@ -96,11 +98,6 @@ h2 {
     font-weight:400;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    box-sizing:border-box;
     overflow:hidden;
     text-decoration:none;
     text-align:center;
