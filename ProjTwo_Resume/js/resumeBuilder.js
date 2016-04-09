@@ -123,7 +123,7 @@ var work = {
 		},
 		{
 			"employer" : "Pierce & Associates",
-			"title" : "Jusdgment Affidavits Clerk",
+			"title" : "Judgment Affidavits Clerk",
 			"location" : "Chicago IL",
 			"dates" : "October 2012 - December 2012",
 			"description" : ""
