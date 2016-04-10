@@ -1,6 +1,6 @@
 "use strict";
 
-// BIO JSON 
+// BIO JSON
 
 var bio = {
 	"name" : "Andy Hang",
@@ -113,8 +113,8 @@ var work = {
 			"location" : "Evanston, IL",
 			"dates" : "2013 - Present",
 			"description" : ""
-		},
-		{
+		}
+,			{
 			"employer" : "Walgreens",
 			"title" : "Certified Pharmacy Technician",
 			"location" : "Chicago, IL",
@@ -142,7 +142,7 @@ var work = {
 };
 
 
-// Project JSON 
+// Project JSON
 
 var projects = {
 	"projects" : [
@@ -156,8 +156,8 @@ var projects = {
 		{
 				"title" : "Project 2 - Interactive Resume",
 				"dates" : "April 2016",
-				"description" : "The page you are currently on is my interactive resume! <p><b>Skills: HTML, CSS, Javascript, jQuery</p></b>",
-				"images" : ["img/ProjTwo.png"],			
+				"description" : "The page you are currently on is my interactive resume! <p>Developed an interactive resume website using Javascript.</p> <p><b>Skills: HTML, CSS, Javascript, jQuery</p></b>",
+				"images" : ["img/ProjTwo.png"],
 		}
 	],
 	"display" : function() {
@@ -173,7 +173,7 @@ var projects = {
 				$('.project-entry:last').append(HTMLprojectImage.replace("%data%", projects.projects[i].images[j]));
 			}
 		}
-	}	
+	}
 };
 
 

@@ -96,7 +96,7 @@ em {
 	font-size: 18px;
 	color: #F3F3F3;
 	line-height: 28px;
-	
+
 }
 
 #skillsH3 {
@@ -131,7 +131,7 @@ em {
 /* TODO: Replace with image later */
 #header {
 	background-color: #484848;
-	background: url(../img/background.jpg);
+	/*background: url(../img/background.jpg);*/
 	background-position: left center;
 	background-size: cover;
 }
