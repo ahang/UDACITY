@@ -51,7 +51,7 @@ var education = {
 		"degree" : "",
 		"majors" : [],
 		"concentrations" : [],
-		"dates" : 2015,
+		"dates" : "2007-2012",
 		"url" : ""
 	}
 	],
@@ -59,7 +59,7 @@ var education = {
 	{
 		"title" : 'Front-End Web Developer Nanodegree',
 		"school" : 'Udacity',
-		"date" : 2016,
+		"date" : "2016",
 		"url" : 'https://www.udacity.com/course/nd001'
 	}
 	],
