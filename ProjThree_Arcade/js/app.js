@@ -39,7 +39,7 @@ var Player = function() {
     this.x = 202;
     this.y = 405;
     this.score = 0;
-    this.sprite = "images/char-horn-girl.png";
+    this.sprite = "images/char-princess-girl.png";
 };
 
 Player.prototype.update = function() {
@@ -52,7 +52,7 @@ Player.prototype.update = function() {
     // Add points and Resets Position once player has reached the end
     if (this.y < 10) {
         this.positionReset();
-        this.score += 10;
+        this.score += 15;
     }
 };
 
