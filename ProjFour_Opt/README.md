@@ -28,7 +28,10 @@ To view the page. Please copy and paste the below link to your web browser http:
 
 Sources
 -Used optimizilla to optimize images
+
 -PageSpeed to identify ways to optimize the project.
+
 -Chrome Dev Tools for monitoring frames/jank
+
 -Utilized Optimization Tips and Tricks to better understand optimizing the project.
 
