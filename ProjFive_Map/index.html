@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project Five - Neighborhood Map</title>
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/icomoon.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body data-bind="css: toggleMenu">
+        <div class="header">
+            <a href="#" class="menu-icon-link" data-bind="click: function(){menuStatus(!menuStatus())}">
+                <i class="icon-list"></i>
+            </a>
+        </div>
+        <div class="slide-menu">
+            <div class="form-group">
+                <input class="form-control" type="text" data-bind="textInput: filterText, valueUpdate: 'keyup'" placeholder="Filter Locations">
+            </div>
+            <div class="list-group" data-bind="foreach: filter()">
+                <a class="list-group-item" href="#" data-bind="text: name, click: $parent.showInfoWindowWhenClicked,  css: {active: $index() === $parent.activeListItemIndex()}"></a>
+            </div>
+        </div>
+        <div class="map"></div>
+
+        <script src="js/lib/knockout-3.4.0.js"></script>
+        <script async src="js/main.js"></script>
+        <script src="js/lib/jquery-3.1.0.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        onerror="alert('Unable to Load Google Map')"></script>
+    </body>
+</html>
+
+
+
+
+
+
