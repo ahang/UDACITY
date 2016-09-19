@@ -8,7 +8,7 @@ Tasked with developing a single page application featuring a map of my neighborh
 
 OR
 
-Check it out live [here](url=http://dashaman.github.io/UDACITY/ProjFive_Map/index.html)
+Check it out live [here](http://dashaman.github.io/UDACITY/ProjFive_Map/index.html)
 
 ##How to Use
 In order to access the list of interesting places in the map, click on the hamburger icon to present a drop down select. User can also filter the search if they want to narrow down the list of places.
@@ -16,7 +16,11 @@ In order to access the list of interesting places in the map, click on the hambu
 ##Sources
 
 *[Bootstrap.css](http://getbootstrap.com/)
+
 *[jQuery](http://jquery.com)
+
 *[Knockoutjs](http://knockoutjs.com/)
+
 *[Wikipedia API](https://en.wikipedia.org/w/api.php)
+
 *[IcoMoon](https://icomoon.io/)
