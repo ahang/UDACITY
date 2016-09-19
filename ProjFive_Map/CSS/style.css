@@ -30,7 +30,6 @@
     transition: transform 0.2s;
 }
 
-
 .entry {
     border-bottom: 1px solid #ddd;
     padding: 1em;
@@ -38,11 +37,11 @@
 }
 
 .map {
-    position:fixed !important;
-    position:absolute;
+    position: fixed !important;
+    position: absolute;
     top: 3.5em;
-    right:0;
-    bottom:0;
+    right: 0;
+    bottom: 0;
     left: 0;
 }
 
@@ -52,23 +51,6 @@
     padding: 5px;
 }
 
-footer {
-width: 100%;
-background: #336699;
-float: left;
-margin: 0 0 .5% 0;
-border-radius: 10px;
-box-shadow: 5px 5px 10px #202020
-}
-
-address {
-font-size : 16px;
-text-align : center;
-color: #efefef;
-padding: 1% 0;
-text-shadow: 1px 1px 0px #202020
-}
-
 @media screen and (max-width: 400px) {
     .header-title {
         font-size: 1.5em !important;
@@ -76,5 +58,5 @@ text-shadow: 1px 1px 0px #202020
 
     h4 {
         font-size: 1.1em !important;
-    }
+    };
 }
