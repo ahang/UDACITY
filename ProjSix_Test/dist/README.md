@@ -5,6 +5,10 @@
 3. Navigate to ProjSix_Test/dist and launch index.html
 4. All Tests should pass upon loading the index.html
 
+OR
+
+1. Navigate to http://dashaman.github.io/UDACITY/ProjSix_Test/dist/index.html
+
 ## Rubric for the Feed Reader Testing provided by UDACITY
 Review the Feed Reader Testing [Project Rubric](https://review.udacity.com/#!/projects/3442558598/rubric)
 
